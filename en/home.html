@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Robotics ETEC 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../icone.svg" type="image/svg+xml">
+</head>
+<body id="topo">
+
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
+            <div class="brand-name">ROBOTICS <span>2026</span></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Open menu">
+            <div class="ham"><span></span><span></span><span></span></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                <li class="nav-item"><a class="nav-link" href="home.html" data-page="index.html">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" href="sobre.html" data-page="sobre.html">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="historia.html" data-page="historia.html">HISTORY</a></li>
+                <li class="nav-item"><a class="nav-link" href="tipos.html" data-page="tipos.html">TYPES</a></li>
+                <li class="nav-item"><a class="nav-link" href="aplicacoes.html" data-page="aplicacoes.html">APPLICATIONS</a></li>
+                <li class="nav-item"><a class="nav-link" href="futuro.html" data-page="futuro.html">FUTURE</a></li>
+                <li class="nav-item"><a class="nav-link" href="bibliografia.html" data-page="bibliografia.html">BIBLIOGRAPHY</a></li>
+                <li class="nav-item"><a class="nav-link" href="creditos.html" data-page="creditos.html">CREDITS</a></li>
+                <li class="nav-item"><a class="nav-link" href="contato.html" data-page="contato.html">CONTACT</a></li>
+            </ul>
+            <div class="lang-toggle ms-lg-3">
+                <a href="../index.html">PT</a>
+                <span class="sep">|</span>
+                <a href="#" class="active">EN</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6" data-aos="fade-right">
+                <span class="hero-badge"><i class="fas fa-star me-1"></i> ETEC OPEN DOORS 2026</span>
+                <h1>Robotics:<br><span class="gradient-text">Technology that Transforms</span><br>the World</h1>
+                <p class="lead">Discover how robots are transforming industries, hospitals, homes, schools, and even space exploration. A project about the technology shaping our future.</p>
+                <div class="hero-actions">
+                    <a href="#intro" class="btn-glow"><i class="fas fa-rocket"></i> Explore</a>
+                    <a href="aplicacoes.html" class="btn-outline"><i class="fas fa-microchip"></i> See Applications</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="num">3.5M+</span>
+                        <span class="lbl">Active industrial robots</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="num">40+</span>
+                        <span class="lbl">Countries with automation</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="num">1961</span>
+                        <span class="lbl">First industrial robot</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+                <div class="hero-img-wrap">
+                    <img src="../img/hero-img.jpg" alt="Modern industrial robotic arm" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-hint"><i class="fas fa-chevron-down"></i> SCROLL DOWN</div>
+</section>
+
+<section id="intro">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6" data-aos="fade-right">
+                <span class="section-badge">Introduction</span>
+                <h2 class="mb-3">What is <span class="gradient-text">Robotics?</span></h2>
+                <p>Robotics is the field of science and technology that studies the design, construction, programming, and operation of robots. It brings together three major areas of knowledge: <strong class="text-cyan">mechanics</strong>, <strong class="text-cyan">electronics</strong>, and <strong class="text-cyan">programming</strong>.</p>
+                <p class="mt-3">A robot is a machine capable of capturing information from the environment (sensors), processing that data (computer/controller), and performing physical actions (actuators). Some robots can learn and adapt using Artificial Intelligence.</p>
+                <div class="info-box mt-4">
+                    <p class="mb-0"><strong class="text-cyan">Definition:</strong> According to the Institute of Electrical and Electronics Engineers (IEEE), a robot is a mechanical, electrical, or software system capable of performing tasks autonomously or semi-autonomously.</p>
+                </div>
+                <a href="sobre.html" class="btn-glow mt-4"><i class="fas fa-arrow-right"></i> Learn More About Robotics</a>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+                <img src="../img/about-img.jpg" alt="Robot components: sensors, controller, actuators" class="rounded-3 w-100" style="border:1px solid var(--border-color);box-shadow:var(--shadow-card);" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-alt">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Relevance</span>
+            <h2>Why is Robotics <span class="gradient-text">Important?</span></h2>
+            <p>Robotics is revolutionizing the way we live, work, and interact with technology.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="glass-card text-center">
+                    <div class="c-icon mx-auto"><i class="fas fa-industry"></i></div>
+                    <h4>Productivity</h4>
+                    <p>Robots can work 24 hours a day, 7 days a week, without breaks, significantly increasing production in factories and businesses worldwide.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="glass-card text-center">
+                    <div class="c-icon mx-auto"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Safety</h4>
+                    <p>Robots take over dangerous tasks such as handling toxic substances, mine operations, bomb disposal, and space exploration.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="glass-card text-center">
+                    <div class="c-icon mx-auto"><i class="fas fa-lightbulb"></i></div>
+                    <h4>Innovation</h4>
+                    <p>Robotics drives advances in medicine, agriculture, education, and space exploration, creating solutions that did not previously exist.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row g-0 mt-5" data-aos="fade-up">
+            <div class="col-6 col-md-3">
+                <div class="stat-item" style="border-right:1px solid var(--border-color);">
+                    <span class="stat-num" data-counter="3500000">0</span>
+                    <span class="stat-lbl">Industrial robots worldwide</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-item" style="border-right:1px solid var(--border-color);">
+                    <span class="stat-num" data-counter="400000">0</span>
+                    <span class="stat-lbl">New robots installed in 2022</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-item" style="border-right:1px solid var(--border-color);">
+                    <span class="stat-num" data-counter="74">0</span>
+                    <span class="stat-lbl">Robots per 10,000 workers (Korea)</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-item">
+                    <span class="stat-num" data-counter="60">0</span>
+                    <span class="stat-lbl">Years of industrial robotics</span>
+                </div>
+            </div>
+        </div>
+        <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:0.5rem;">Source: International Federation of Robotics (IFR), 2023</p>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Applications</span>
+            <h2>Where Do We <span class="gradient-text">Find Robots?</span></h2>
+            <p>Robots are present in far more places than we imagine in our daily lives.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <a href="aplicacoes.html#industria" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-industry"></i></div>
+                    <h5>Industry</h5>
+                    <p>Robotic arms assemble cars, weld parts, and inspect quality on production lines with greater precision than humans.</p>
+                    <div class="card-go">Learn more <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="60">
+                <a href="aplicacoes.html#medicina" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h5>Medicine</h5>
+                    <p>The Da Vinci surgical robot performs operations with minimally invasive incisions. Robots also assist in patient rehabilitation.</p>
+                    <div class="card-go">Learn more <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
+                <a href="aplicacoes.html#agricultura" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-seedling"></i></div>
+                    <h5>Agriculture</h5>
+                    <p>Agricultural drones monitor crops, autonomous tractors plow fields, and robots harvest fruit using computer vision sensors.</p>
+                    <div class="card-go">Learn more <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <a href="aplicacoes.html#casa" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-home"></i></div>
+                    <h5>Home and Daily Life</h5>
+                    <p>The Roomba (iRobot) vacuums floors autonomously. Assistants like Alexa and Google Home control entire smart home systems.</p>
+                    <div class="card-go">Learn more <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="60">
+                <a href="aplicacoes.html#espaco" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-rocket"></i></div>
+                    <h5>Space</h5>
+                    <p>The Perseverance rover explores Mars collecting samples. The Canadarm maintains the International Space Station.</p>
+                    <div class="card-go">Learn more <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
+                <a href="aplicacoes.html#logistica" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-box"></i></div>
+                    <h5>Logistics</h5>
+                    <p>Amazon Robotics operates over 750,000 robots in global distribution centers, cutting order processing time by 50%.</p>
+                    <div class="card-go">Learn more <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-alt">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Fun Facts</span>
+            <h2>Did You <span class="gradient-text">Know?</span></h2>
+            <p>Interesting facts about the world of robotics that most people are unaware of.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="curiosity-box h-100">
+                    <div class="curiosity-label"><i class="fas fa-star"></i> Fun Fact 1</div>
+                    <h5 class="text-primary mb-2">The origin of the word "robot"</h5>
+                    <p>The word "robot" comes from the Czech word <em>robota</em>, meaning "forced labor" or "drudgery." It was first used in 1920 in the play R.U.R. (Rossum's Universal Robots) by writer Karel Capek.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="curiosity-box h-100">
+                    <div class="curiosity-label"><i class="fas fa-star"></i> Fun Fact 2</div>
+                    <h5 class="text-primary mb-2">The first industrial robot</h5>
+                    <p>Unimate, created in 1961 by George Devol and installed at a General Motors factory in New Jersey (USA), was the first industrial robot in history. It performed casting and welding tasks on cars.</p>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="curiosity-box h-100">
+                    <div class="curiosity-label"><i class="fas fa-star"></i> Fun Fact 3</div>
+                    <h5 class="text-primary mb-2">Robots in space</h5>
+                    <p>NASA's Opportunity rover, sent to Mars in 2004, was designed to operate for 90 days but functioned for an incredible 14 years, until 2018 — almost 56 times longer than expected.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-badge">Content</span>
+            <h2>Explore the <span class="gradient-text">Site</span></h2>
+            <p>Navigate through the pages and discover everything we prepared about robotics.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <a href="sobre.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-info-circle"></i></div>
+                    <h5>About Robotics</h5>
+                    <p>Complete definition, components (sensors, actuators, controllers), differences between robot and AI.</p>
+                    <div class="card-go">Access <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="60">
+                <a href="historia.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-history"></i></div>
+                    <h5>History</h5>
+                    <p>Interactive timeline from ancient automatons to today's humanoid robots.</p>
+                    <div class="card-go">Access <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
+                <a href="tipos.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-th-large"></i></div>
+                    <h5>Types of Robots</h5>
+                    <p>Industrial, humanoid, domestic, medical, military, agricultural, space and much more.</p>
+                    <div class="card-go">Access <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <a href="aplicacoes.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-microchip"></i></div>
+                    <h5>Applications</h5>
+                    <p>Real examples of robotics use in 7 areas: industry, medicine, agriculture, space and more.</p>
+                    <div class="card-go">Access <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="60">
+                <a href="futuro.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-globe"></i></div>
+                    <h5>Future</h5>
+                    <p>Trends, collaborative robots, AI, smart cities, and the benefits vs. challenges debate.</p>
+                    <div class="card-go">Access <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="120">
+                <a href="creditos.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-users"></i></div>
+                    <h5>Our Team</h5>
+                    <p>Meet the students who developed this project and the teachers who guided them.</p>
+                    <div class="card-go">Access <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row g-4 mb-4">
+            <div class="col-lg-4">
+                <div class="footer-brand">
+                    <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
+                    <div class="ft-name">ROBOTICS <span>2026</span></div>
+                </div>
+                <p style="font-size:0.88rem;color:var(--text-muted);">Interdisciplinary project developed by students of ETEC Hortolandia for the Open Doors 2026 event.</p>
+            </div>
+            <div class="col-lg-4">
+                <p class="ft-title">Navigation</p>
+                <ul class="ft-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">About</a></li>
+                    <li><a href="historia.html">History</a></li>
+                    <li><a href="tipos.html">Types</a></li>
+                    <li><a href="aplicacoes.html">Applications</a></li>
+                    <li><a href="futuro.html">Future</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <p class="ft-title">Project</p>
+                <ul class="ft-links">
+                    <li><a href="bibliografia.html">Bibliography</a></li>
+                    <li><a href="creditos.html">Credits</a></li>
+                    <li><a href="contato.html">Contact</a></li>
+                    <li><a href="../index.html">Versao em Portugues</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>ETEC DE HORTOLANDIA 2026 &ndash; &copy; All rights reserved</p>
+            <p>Non-profit academic work</p>
+        </div>
+    </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
