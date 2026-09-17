@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,6 @@
     <title>Contact - Robotics ETEC 2026</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../icone.svg" type="image/svg+xml">
@@ -15,7 +14,7 @@
 
 <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand" href="index.html">
+    <a class="navbar-brand" href="home.html">
       <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
       <div class="brand-name">ROBOTICS <span>2026</span></div>
     </a>
@@ -27,8 +26,6 @@
         <li class="nav-item"><a class="nav-link" href="home.html" data-page="index.html">HOME</a></li>
         <li class="nav-item"><a class="nav-link" href="sobre.html" data-page="sobre.html">ABOUT</a></li>
         <li class="nav-item"><a class="nav-link" href="historia.html" data-page="historia.html">HISTORY</a></li>
-        <li class="nav-item"><a class="nav-link" href="tipos.html" data-page="tipos.html">TYPES</a></li>
-        <li class="nav-item"><a class="nav-link" href="aplicacoes.html" data-page="aplicacoes.html">APPLICATIONS</a></li>
         <li class="nav-item"><a class="nav-link" href="futuro.html" data-page="futuro.html">FUTURE</a></li>
         <li class="nav-item"><a class="nav-link" href="bibliografia.html" data-page="bibliografia.html">BIBLIOGRAPHY</a></li>
         <li class="nav-item"><a class="nav-link" href="creditos.html" data-page="creditos.html">CREDITS</a></li>
@@ -45,88 +42,127 @@
 
 <header class="page-header">
   <div class="container text-center">
-    <span class="page-badge" data-aos="fade-down">Get in Touch</span>
-    <h1 class="display-4 fw-bold mt-2" data-aos="fade-up">Contact</h1>
-    <p class="lead mt-3" data-aos="fade-up" data-aos-delay="100">
+    <span class="page-badge">Get in Touch</span>
+    <h1 class="display-4 fw-bold mt-2">Contact</h1>
+    <p class="lead mt-3">
       Leave your comment, suggestion, or rating about our project. We love feedback!
     </p>
   </div>
 </header>
 
-<!-- Info Cards Section -->
+<!-- SECTION 1: Layout 2 colunas -->
 <section class="py-5">
   <div class="container">
-    <div class="row g-4">
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
-        <div class="glass-card text-center h-100">
-          <div class="c-icon mx-auto mb-3"><i class="fas fa-star"></i></div>
-          <h5 class="fw-bold" style="color:var(--text-primary);">Rate Our Project</h5>
-          <p class="text-secondary">Tell us what you think of our work. Your rating helps us understand what we did well and what we can improve for future projects.</p>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="glass-card text-center h-100">
-          <div class="c-icon mx-auto mb-3"><i class="fas fa-lightbulb"></i></div>
-          <h5 class="fw-bold" style="color:var(--text-primary);">Share Suggestions</h5>
-          <p class="text-secondary">Did you notice something missing? Do you have ideas for content we could add? We welcome all constructive feedback and suggestions from visitors.</p>
-        </div>
-      </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="glass-card text-center h-100">
-          <div class="c-icon mx-auto mb-3"><i class="fas fa-heart"></i></div>
-          <h5 class="fw-bold" style="color:var(--text-primary);">Show Your Support</h5>
-          <p class="text-secondary">A few kind words go a long way! Our student team worked hard to create this bilingual robotics website. Your encouragement means a lot to us.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="row g-4 align-items-start">
 
-<!-- Contact Form Section -->
-<section class="py-5 section-alt">
-  <div class="container">
-    <div class="section-header" data-aos="fade-up">
-      <span class="section-badge">Message Form</span>
-      <h2>Send Us a Message</h2>
-      <div class="section-divider"></div>
-      <p class="text-secondary mt-3" style="max-width:700px;margin:0 auto;">
-        Fill in the fields below to send us your questions, comments, or feedback about the project presented at ETEC Open Doors 2026.
-      </p>
-    </div>
+      <!-- Coluna Esquerda: Info Cards -->
+      <div class="col-lg-5">
 
-    <div class="row justify-content-center mt-4">
-      <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-        <div class="glass-card" style="padding: 2.5rem;">
-          <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 0.9rem;">
-            All fields marked with an asterisk (<span style="color: #ef4444;">*</span>) are required and validated via HTML5 and JavaScript.
+        <!-- Card: Sobre o Projeto -->
+        <div class="glass-card mb-4">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <div class="c-icon flex-shrink-0">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <h5 class="fw-bold mb-0" style="color:var(--text-primary);">About This Project</h5>
+          </div>
+          <ul class="c-list">
+            <li><i class="fas fa-school"></i> ETEC de Hortolândia</li>
+            <li><i class="fas fa-calendar"></i> Event: Open Doors 2026</li>
+            <li><i class="fas fa-robot"></i> Theme: Robotics and its applications</li>
+            <li><i class="fas fa-users"></i> Team: Matheus S., Paulo, Lucas, V. Souza</li>
+          </ul>
+        </div>
+
+        <!-- Card: Good to Know -->
+        <div class="glass-card">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <div class="c-icon flex-shrink-0">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <h5 class="fw-bold mb-0" style="color:var(--text-primary);">Good to Know</h5>
+          </div>
+          <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.7;">
+            This form does not send data by email. It is an academic project demonstrating form validation in JavaScript.
           </p>
+          <div class="info-box orange mt-3">
+            <p class="mb-0" style="font-size:0.9rem;">
+              Academic demonstration form. Data is not stored or transmitted.
+            </p>
+          </div>
+        </div>
 
-          <form id="contactFormEn" class="contact-form" novalidate>
+      </div>
 
-            <!-- Field 1: Full Name -->
-            <div class="form-group">
-              <label for="fieldNameEn">Full Name: <span class="required-star">*</span></label>
-              <input type="text" id="fieldNameEn" name="name" placeholder="Enter your full name" required minlength="3">
+      <!-- Coluna Direita: Formulário -->
+      <div class="col-lg-7">
+        <div class="glass-card">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <div class="c-icon flex-shrink-0">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <h5 class="fw-bold mb-0" style="color:var(--text-primary);">Leave Your Message</h5>
+          </div>
+
+          <form id="contactForm" novalidate>
+
+            <!-- Nome -->
+            <div class="mb-4">
+              <label for="fieldName" class="form-label">
+                <i class="fas fa-user me-2" style="color:var(--accent-cyan);"></i>Full name
+              </label>
+              <input
+                type="text"
+                id="fieldName"
+                name="name"
+                class="form-control"
+                placeholder="Your full name"
+                minlength="3"
+                required
+                autocomplete="name"
+              >
             </div>
 
-            <!-- Field 2: Email -->
-            <div class="form-group">
-              <label for="fieldEmailEn">Email Address: <span class="required-star">*</span></label>
-              <input type="email" id="fieldEmailEn" name="email" placeholder="yourname@example.com" required>
+            <!-- Email -->
+            <div class="mb-4">
+              <label for="fieldEmail" class="form-label">
+                <i class="fas fa-envelope me-2" style="color:var(--accent-cyan);"></i>Email
+              </label>
+              <input
+                type="email"
+                id="fieldEmail"
+                name="email"
+                class="form-control"
+                placeholder="your@email.com"
+                required
+                autocomplete="email"
+              >
             </div>
 
-            <!-- Field 3: Phone -->
-            <div class="form-group">
-              <label for="fieldPhoneEn">Phone / WhatsApp: <span class="required-star">*</span></label>
-              <input type="tel" id="fieldPhoneEn" name="phone" placeholder="+1 (555) 000-0000" required pattern="[\d\s\(\)\-\+]{8,20}">
+            <!-- Phone -->
+            <div class="mb-4">
+              <label for="fieldPhone" class="form-label">
+                <i class="fas fa-phone me-2" style="color:var(--accent-cyan);"></i>Phone
+              </label>
+              <input
+                type="tel"
+                id="fieldPhone"
+                name="phone"
+                class="form-control"
+                placeholder="+1 (555) 000-0000"
+                required
+                autocomplete="tel"
+              >
             </div>
 
-            <!-- Field 4: Rating Select -->
-            <div class="form-group">
-              <label for="fieldRatingEn">Rate our website (0 to 5): <span class="required-star">*</span></label>
-              <select id="fieldRatingEn" name="rating" required>
-                <option value="" disabled selected>Please select a rating...</option>
-                <option value="5">5 - Excellent!</option>
+            <!-- Avaliação -->
+            <div class="mb-4">
+              <label for="fieldRating" class="form-label">
+                <i class="fas fa-star me-2" style="color:var(--accent-cyan);"></i>Rate our website
+              </label>
+              <select id="fieldRating" name="rating" class="form-select" required>
+                <option value="" disabled selected>Select a rating...</option>
+                <option value="5">5 - Excelente!</option>
                 <option value="4">4 - Very good</option>
                 <option value="3">3 - Good</option>
                 <option value="2">2 - Fair</option>
@@ -135,156 +171,54 @@
               </select>
             </div>
 
-            <!-- Field 5: Comment Textarea -->
-            <div class="form-group">
-              <label for="fieldCommentEn">Your comment: <span class="required-star">*</span></label>
-              <textarea id="fieldCommentEn" name="comment" rows="5" placeholder="Write your thoughts, suggestions, or a message for the developers here..." required minlength="10"></textarea>
+            <!-- Comment -->
+            <div class="mb-4">
+              <label for="fieldComment" class="form-label">
+                <i class="fas fa-comment-alt me-2" style="color:var(--accent-cyan);"></i>Comment
+              </label>
+              <textarea
+                id="fieldComment"
+                name="comment"
+                class="form-control textarea-fixed"
+                placeholder="Write your comment or suggestion here..."
+                minlength="10"
+                rows="5"
+                required
+              ></textarea>
             </div>
 
-            <!-- Submit Button -->
-            <button type="submit" class="btn-submit"><i class="fas fa-paper-plane me-2"></i>Send Message &amp; Rating</button>
+            <!-- Botão -->
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn-submit">
+                <i class="fas fa-paper-plane me-2"></i>Send Message
+              </button>
+            </div>
 
-            <!-- Feedback Message -->
-            <div id="formFeedbackEn" class="form-feedback"></div>
+            <!-- Feedback -->
+            <div id="formFeedback" class="form-feedback mt-3"></div>
+
           </form>
         </div>
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- FAQ Section -->
-<section class="py-5">
-  <div class="container">
-    <div class="section-header" data-aos="fade-up">
-      <span class="section-badge">FAQ</span>
-      <h2>Frequently Asked Questions</h2>
-      <div class="section-divider"></div>
-    </div>
-
-    <div class="row justify-content-center mt-4">
-      <div class="col-lg-8">
-        <div class="faq-item" data-aos="fade-up" data-aos-delay="0">
-          <div class="faq-q"><i class="fas fa-question-circle me-2"></i>Is this a real robotics company?</div>
-          <div class="faq-a">No! This is a student academic project created for the ETEC de Hortolandia Open Doors 2026 event. We are high school technical course students, not a company. The website was built as an interdisciplinary assignment combining Web Programming and English Language classes.</div>
-        </div>
-        <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
-          <div class="faq-q"><i class="fas fa-question-circle me-2"></i>Will my form submission actually reach the team?</div>
-          <div class="faq-a">The contact form demonstrates HTML5 and JavaScript form validation — a key learning objective of the project. For the academic demonstration, submissions are validated and confirmed client-side. This is intentional: the project showcases front-end development skills.</div>
-        </div>
-        <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
-          <div class="faq-q"><i class="fas fa-question-circle me-2"></i>Can I reuse the content or code from this website?</div>
-          <div class="faq-a">The content is protected as an academic work. The code structure (HTML/CSS/JS patterns) is available for educational reference. If you are a student looking for examples, feel free to study it, but please do not copy it wholesale for your own academic submission — that would be plagiarism.</div>
-        </div>
-        <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
-          <div class="faq-q"><i class="fas fa-question-circle me-2"></i>Why is the website available in both Portuguese and English?</div>
-          <div class="faq-a">The project is interdisciplinary, combining both Web Programming I (PWI) and English Language classes. Creating a fully bilingual website was one of the core requirements, allowing us to practice both technical web development and foreign language skills simultaneously.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Validation Script -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const form = document.getElementById("contactFormEn");
-    const feedback = document.getElementById("formFeedbackEn");
-
-    form.addEventListener("submit", function(event) {
-      event.preventDefault();
-
-      const name = document.getElementById("fieldNameEn").value.trim();
-      const email = document.getElementById("fieldEmailEn").value.trim();
-      const phone = document.getElementById("fieldPhoneEn").value.trim();
-      const rating = document.getElementById("fieldRatingEn").value;
-      const comment = document.getElementById("fieldCommentEn").value.trim();
-
-      if (!name || name.length < 3) {
-        showMessage("Please enter your full name (minimum 3 characters).", "error");
-        document.getElementById("fieldNameEn").focus();
-        return;
-      }
-
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!email || !emailRegex.test(email)) {
-        showMessage("Please enter a valid email address.", "error");
-        document.getElementById("fieldEmailEn").focus();
-        return;
-      }
-
-      if (!phone || phone.length < 8) {
-        showMessage("Please enter a valid phone number with area code.", "error");
-        document.getElementById("fieldPhoneEn").focus();
-        return;
-      }
-
-      if (rating === "") {
-        showMessage("Please select a rating for our website.", "error");
-        document.getElementById("fieldRatingEn").focus();
-        return;
-      }
-
-      if (!comment || comment.length < 10) {
-        showMessage("Please leave a detailed comment (minimum 10 characters).", "error");
-        document.getElementById("fieldCommentEn").focus();
-        return;
-      }
-
-      showMessage("Thank you, " + name + "! Your message and rating (Score: " + rating + "/5) have been successfully validated and recorded!", "success");
-      form.reset();
-    });
-
-    function showMessage(text, type) {
-      feedback.textContent = text;
-      feedback.className = "form-feedback " + type;
-      feedback.style.display = "block";
-      feedback.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-  });
-</script>
-
+<!-- RODAPE -->
 <footer>
-  <div class="container">
-    <div class="row g-4 mb-4">
-      <div class="col-lg-4">
-        <div class="footer-brand">
-          <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
-          <div class="ft-name">ROBOTICS <span>2026</span></div>
+    
+        <div class="footer-bottom">
+            <p>ETEC DE HORTOLANDIA 2026 &ndash; &copy; All rights reserved</p>
+            <p>Non-profit academic work</p>
         </div>
-        <p style="font-size:0.88rem;color:var(--text-muted);">Interdisciplinary project developed by students of ETEC Hortolandia for the Open Doors 2026 event.</p>
-      </div>
-      <div class="col-lg-4">
-        <p class="ft-title">Navigation</p>
-        <ul class="ft-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="sobre.html">About</a></li>
-          <li><a href="historia.html">History</a></li>
-          <li><a href="tipos.html">Types</a></li>
-          <li><a href="aplicacoes.html">Applications</a></li>
-          <li><a href="futuro.html">Future</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-4">
-        <p class="ft-title">Project</p>
-        <ul class="ft-links">
-          <li><a href="bibliografia.html">Bibliography</a></li>
-          <li><a href="creditos.html">Credits</a></li>
-          <li><a href="contato.html">Contact</a></li>
-          <li><a href="../index.html">Versao em Portugues</a></li>
-        </ul>
-      </div>
     </div>
-    <div class="footer-bottom">
-      <p>ETEC DE HORTOLANDIA 2026 &ndash; &copy; All rights reserved</p>
-      <p>Non-profit academic work</p>
-    </div>
-  </div>
 </footer>
 
-  <button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="../js/script.js"></script>
+<button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>
+
+
