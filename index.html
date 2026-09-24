@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Robotica ETEC 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+ <link rel="icon" href="img/robozin.png" type="image/png">
+</head>
+<body id="topo">
+
+<!-- NAVEGACAO -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
+      <div class="brand-name">ROBOTICA <span>2026</span></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+      <div class="ham"><span></span><span></span><span></span></div>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html" data-page="index.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre.html" data-page="sobre.html">SOBRE</a></li>
+        <li class="nav-item"><a class="nav-link" href="historia.html" data-page="historia.html">HISTORIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="futuro.html" data-page="futuro.html">FUTURO</a></li>
+        <li class="nav-item"><a class="nav-link " href="bibliografia.html" data-page="bibliografia.html">BIBLIOGRAFIA</a></li>
+       <li class="nav-item dropdown">
+
+    <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        id="creditosDropdown"
+        role="button"
+        aria-expanded="false">
+
+        CREDITOS
+
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="creditosDropdown">
+
+        <li>
+            <a
+                class="dropdown-item"
+                href="desenvolvedores.html">
+
+                DESENVOLVEDORES
+
+            </a>
+        </li>
+
+        <li>
+            <a
+                class="dropdown-item"
+                href="orientadores.html">
+
+                ORIENTADORES
+
+            </a>
+        </li>
+
+    </ul>
+
+</li>
+
+
+
+
+
+        <li class="nav-item"><a class="nav-link" href="contato.html" data-page="contato.html">CONTATO</a></li>
+      </ul>
+      <div class="lang-toggle ms-lg-3">
+        <a href="#" class="active">PT</a>
+        <span class="sep">|</span>
+        <a href="en/home1.html">EN</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                
+                <h1><br><span class="gradient-text">Tecnologia que Transforma</span><br>o Mundo</h1>
+                <p class="lead">Descubra como robôs estão transformando industrias, hospitais, casas, escolas e ate a exploração espacial. Um projeto sobre a tecnologia que está moldando o futuro.</p>
+                <div class="hero-actions">
+                
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="num">3,5M+</span>
+                        <span class="lbl">Robôs industriais ativos</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="num">40+</span>
+                        <span class="lbl">Paises com automação</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="num">1961</span>
+                        <span class="lbl">Primeiro robô industrial</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="hero-img-wrap">
+                    <img src="img/hero-img.jpg" alt="Braco robotico industrial moderno" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- SECAO: O QUE E ROBOTICA? -->
+<section id="introducao">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6">
+                
+               
+                <p>A robótica e a área da ciência e tecnologia que estuda o projeto, construção, programação e operação de robôs. Ela une três grandes campos do conhecimento: a <strong class="text-cyan">mecânica</strong>, a <strong class="text-cyan">eletrônica</strong> e a <strong class="text-cyan">programação</strong>.</p>
+                <p class="mt-3">Um robô e uma máquina capaz de captar informacoes do ambiente (sensores), processar esses dados (computador/controlador) e executar acoes fisicas (atuadores). Alguns robos podem aprender e se adaptar com o uso de Inteligencia Artificial.</p>
+                <div class="info-box mt-4">
+                    <p class="mb-0"><strong class="text-cyan">Definicao:</strong> Segundo o Instituto de Engenharia Eletrica e Eletronica (IEEE), um robo e um sistema mecanico, eletrico ou de software capaz de realizar tarefas de forma autonoma ou semi-autonoma.</p>
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+                <img src="img/about-img.jpg" alt="Componentes de um robo: sensores, controlador, atuadores" class="rounded-3 w-100" style="border:1px solid var(--border-color);box-shadow:var(--shadow-card);" loading="lazy">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECAO: POR QUE E IMPORTANTE? -->
+<section class="section-alt">
+    <div class="container">
+        <div class="section-header">
+           
+            <h2> <span class="gradient-text">A importância dela</span></h2>
+            <p>A robotica esta revolucionando a forma como vivemos, trabalhamos e nos relacionamos com a tecnologia.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="glass-card text-center">
+                    <div class="c-icon mx-auto"><i class="fas fa-industry"></i></div>
+                    <h4>Produtividade</h4>
+                    <p>Robos podem trabalhar 24 horas por dia, 7 dias por semana, sem pausa, aumentando significativamente a producao nas fabricas e empresas.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="glass-card text-center">
+                    <div class="c-icon mx-auto"><i class="fas fa-shield-alt"></i></div>
+                    <h4>Seguranca</h4>
+                    <p>Robos assumem tarefas perigosas como manuseio de substancias toxicas, operacoes em minas, desarmamento de explosivos e exploracao espacial.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="glass-card text-center">
+                    <div class="c-icon mx-auto"><i class="fas fa-lightbulb"></i></div>
+                    <h4>Inovacao</h4>
+                    <p>A robotica impulsiona avancos em medicina, agricultura, educacao e exploracao espacial, criando solucoes que nao existiam antes.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="row g-0 mt-5">
+            <div class="col-6 col-md-3">
+                <div class="stat-item" style="border-right:1px solid var(--border-color);">
+                    <span class="stat-num" data-counter="3500000">0</span>
+                    <span class="stat-lbl">Robos industriais no mundo</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-item" style="border-right:1px solid var(--border-color);">
+                    <span class="stat-num" data-counter="400000">0</span>
+                    <span class="stat-lbl">Novos robos instalados em 2022</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-item" style="border-right:1px solid var(--border-color);">
+                    <span class="stat-num" data-counter="74">0</span>
+                    <span class="stat-lbl">Robos por 10.000 trabalhadores (Coreia)</span>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="stat-item">
+                    <span class="stat-num" data-counter="60">0</span>
+                    <span class="stat-lbl">Anos de robotica industrial</span>
+                </div>
+            </div>
+        </div>
+        <p style="font-size:0.75rem;color:var(--text-muted);text-align:center;margin-top:0.5rem;">Fonte: International Federation of Robotics (IFR), 2023</p>
+    </div>
+</section>
+
+
+<!-- SECAO: CURIOSIDADES -->
+<section class="section-alt">
+    <div class="container">
+        <div class="section-header">
+            
+            <h2><span class="gradient-text">Curiosidade</span></h2>
+            <p>Fatos interessantes sobre o mundo da robotica que muita gente nao conhece.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="curiosity-box h-100">
+                    <div class="curiosity-label"><i class="fas fa-star"></i> Curiosidade 1</div>
+                    <h5 class="text-primary mb-2">A origem da palavra "robo"</h5>
+                    <p>A palavra "robo" vem do tcheco <em>robota</em>, que significa "trabalho forcado" ou "corveia". Foi usada pela primeira vez em 1920 na peca teatral R.U.R. (Robos Universais de Rossum) do escritor Karel Capek.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="curiosity-box h-100">
+                    <div class="curiosity-label"><i class="fas fa-star"></i> Curiosidade 2</div>
+                    <h5 class="text-primary mb-2">O primeiro robo industrial</h5>
+                    <p>O Unimate, criado em 1961 por George Devol e instalado na fabrica da General Motors em New Jersey (EUA), foi o primeiro robo industrial da historia. Ele realizava tarefas de fundicao e soldagem em carros.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="curiosity-box h-100">
+                    <div class="curiosity-label"><i class="fas fa-star"></i> Curiosidade 3</div>
+                    <h5 class="text-primary mb-2">Robos no espaco</h5>
+                    <p>O rover Opportunity da NASA, enviado a Marte em 2004, foi projetado para funcionar por 90 dias, mas operou por incriveis 14 anos, ate 2018 -- quase 56 vezes mais do que o esperado.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECAO: EXPLORE O SITE -->
+<section>
+    <div class="container">
+        <div class="section-header">
+           
+            <h2>Explore o <span class="gradient-text">Site</span></h2>
+            <p>Navegue pelas paginas e descubra tudo o que preparamos sobre robotica.</p>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <div class="col-sm-6 col-lg-4">
+                <a href="sobre.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-info-circle"></i></div>
+                    <h5>Sobre a Robotica</h5>
+                    <p>Definicao completa, componentes (sensores, atuadores, controladores), diferencas entre robo e IA.</p>
+                    <div class="card-go">Acessar <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <a href="historia.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-history"></i></div>
+                    <h5>Historia</h5>
+                    <p>Linha do tempo interativa desde os automatos antigos ate os robos humanoides da atualidade.</p>
+                    <div class="card-go">Acessar <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <a href="futuro.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-globe"></i></div>
+                    <h5>Futuro</h5>
+                    <p>Tendencias, robos colaborativos, IA, cidades inteligentes e o debate sobre beneficios e desafios.</p>
+                    <div class="card-go">Acessar <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+                <a href="creditos.html" class="glass-card">
+                    <div class="c-icon"><i class="fas fa-users"></i></div>
+                    <h5>Nossa Equipe</h5>
+                    <p>Conheca os alunos que desenvolveram este projeto e os professores orientadores.</p>
+                    <div class="card-go">Acessar <i class="fas fa-arrow-right"></i></div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RODAPE -->
+<footer>
+    <div class="container">
+        <div class="row g-4 mb-4">
+            <div class="col-lg-4">
+
+        </div>
+        <div class="footer-bottom">
+            <p>ETEC DE HORTOLANDIA 2026 &ndash; &copy; Todos os direitos reservados</p>
+            <p>Trabalho academico sem fins lucrativos</p>
+        </div>
+    </div>
+</footer>
+
+<button id="backToTop" aria-label="Voltar ao topo"><i class="fas fa-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
