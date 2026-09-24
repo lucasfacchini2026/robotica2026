@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Robotics ETEC 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="img/robozin.png" type="image/png">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
+      <div class="brand-name">ROBOTICS <span>2026</span></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Open menu">
+      <div class="ham"><span></span><span></span><span></span></div>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="home1.html" data-page="index.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre1.html" data-page="sobre.html">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link" href="historia1.html" data-page="historia.html">HISTORY</a></li>
+        <li class="nav-item"><a class="nav-link" href="futuro11.html" data-page="futuro.html">FUTURE</a></li>
+        <li class="nav-item"><a class="nav-link " href="bibliografia1.html" data-page="bibliografia.html">BIBLIOGRAPHY</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="creditosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">CREDITS</a>
+          <ul class="dropdown-menu" aria-labelledby="creditosDropdown">
+            <li><a class="dropdown-item" href="desenvolvedores1.html">DEVELOPERS</a></li>
+            <li><a class="dropdown-item" href="orientadores1.html">ADVISORS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link active" href="contato1.html" data-page="contato.html">CONTACT</a></li>
+      </ul>
+      <div class="lang-toggle ms-lg-3">
+        <a href="../contato.html">PT</a>
+        <span class="sep">|</span>
+        <a href="#" class="active">EN</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<header class="page-header">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold mt-2">Contact</h1>
+    <p class="lead mt-3">
+      Leave your comment, suggestion, or rating about our project. We love feedback!
+    </p>
+  </div>
+</header>
+
+<!-- SECTION 1: Layout 2 colunas -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+
+      <!-- Coluna Esquerda: Info Cards -->
+   
+
+      <!-- Coluna Direita: Formulário -->
+      <div class="col-lg-7 contact-form-center"></div>
+        <div class="glass-card">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <div class="c-icon flex-shrink-0">
+              <i class="fas fa-envelope-open-text"></i>
+            </div>
+            <h5 class="fw-bold mb-0" style="color:var(--text-primary);">Leave Your Message</h5>
+          </div>
+
+          <form id="contactForm" novalidate>
+
+            <!-- Nome -->
+            <div class="mb-4">
+              <label for="fieldName" class="form-label">
+                <i class="fas fa-user me-2" style="color:var(--accent-cyan);"></i>Full name
+              </label>
+              <input
+                type="text"
+                id="fieldName"
+                name="name"
+                class="form-control"
+                placeholder="Your full name"
+                minlength="3"
+                required
+                autocomplete="name"
+              >
+            </div>
+
+            <!-- Email -->
+            <div class="mb-4">
+              <label for="fieldEmail" class="form-label">
+                <i class="fas fa-envelope me-2" style="color:var(--accent-cyan);"></i>Email
+              </label>
+              <input
+                type="email"
+                id="fieldEmail"
+                name="email"
+                class="form-control"
+                placeholder="your@email.com"
+                required
+                autocomplete="email"
+              >
+            </div>
+
+            <!-- Phone -->
+            <div class="mb-4">
+              <label for="fieldPhone" class="form-label">
+                <i class="fas fa-phone me-2" style="color:var(--accent-cyan);"></i>Phone
+              </label>
+              <input
+                type="tel"
+                id="fieldPhone"
+                name="phone"
+                class="form-control"
+                placeholder="+1 (555) 000-0000"
+                required
+                autocomplete="tel"
+              >
+            </div>
+
+            <!-- Avaliação -->
+            <div class="mb-4">
+              <label for="fieldRating" class="form-label">
+                <i class="fas fa-star me-2" style="color:var(--accent-cyan);"></i>Rate our website
+              </label>
+              <select id="fieldRating" name="rating" class="form-select" required>
+                <option value="" disabled selected>Select a rating...</option>
+                <option value="5">5 - Excelente!</option>
+                <option value="4">4 - Very good</option>
+                <option value="3">3 - Good</option>
+                <option value="2">2 - Fair</option>
+                <option value="1">1 - Needs improvement</option>
+                <option value="0">0 - Did not like it</option>
+              </select>
+            </div>
+
+            <!-- Comment -->
+            <div class="mb-4">
+              <label for="fieldComment" class="form-label">
+                <i class="fas fa-comment-alt me-2" style="color:var(--accent-cyan);"></i>Comment
+              </label>
+              <textarea
+                id="fieldComment"
+                name="comment"
+                class="form-control textarea-fixed"
+                placeholder="Write your comment or suggestion here..."
+                minlength="10"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <!-- Botão -->
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn-submit">
+                <i class="fas fa-paper-plane me-2"></i>Send Message
+              </button>
+            </div>
+
+            <!-- Feedback -->
+            <div id="formFeedback" class="form-feedback mt-3"></div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- RODAPE -->
+<footer>
+    
+        <div class="footer-bottom">
+            <p>ETEC DE HORTOLANDIA 2026 &ndash; &copy; All rights reserved</p>
+            <p>Non-profit academic work</p>
+        </div>
+    </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
+
+

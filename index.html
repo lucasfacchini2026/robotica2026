@@ -8,37 +8,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="icone.svg" type="image/svg+xml">
+ <link rel="icon" href="img/robozin.png" type="image/png">
 </head>
 <body id="topo">
 
 <!-- NAVEGACAO -->
 <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
-            <div class="brand-name">ROBOTICA <span>2026</span></div>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
-            <div class="ham"><span></span><span></span><span></span></div>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-                <li class="nav-item"><a class="nav-link" href="index.html" data-page="index.html">HOME</a></li>
-                <li class="nav-item"><a class="nav-link" href="sobre.html" data-page="sobre.html">SOBRE</a></li>
-                <li class="nav-item"><a class="nav-link" href="historia.html" data-page="historia.html">HISTORIA</a></li>
-                <li class="nav-item"><a class="nav-link" href="futuro.html" data-page="futuro.html">FUTURO</a></li>
-                <li class="nav-item"><a class="nav-link" href="bibliografia.html" data-page="bibliografia.html">BIBLIOGRAFIA</a></li>
-                <li class="nav-item"><a class="nav-link" href="creditos.html" data-page="creditos.html">CREDITOS</a></li>
-                <li class="nav-item"><a class="nav-link" href="contato.html" data-page="contato.html">CONTATO</a></li>
-            </ul>
-            <div class="lang-toggle ms-lg-3">
-                <a href="#" class="active">PT</a>
-                <span class="sep">|</span>
-                <a href="en/home.html">EN</a>
-            </div>
-        </div>
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <div class="nav-logo-icon"><i class="fas fa-robot"></i></div>
+      <div class="brand-name">ROBOTICA <span>2026</span></div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menu">
+      <div class="ham"><span></span><span></span><span></span></div>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link active" href="index.html" data-page="index.html">HOME</a></li>
+        <li class="nav-item"><a class="nav-link" href="sobre.html" data-page="sobre.html">SOBRE</a></li>
+        <li class="nav-item"><a class="nav-link" href="historia.html" data-page="historia.html">HISTORIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="futuro.html" data-page="futuro.html">FUTURO</a></li>
+        <li class="nav-item"><a class="nav-link " href="bibliografia.html" data-page="bibliografia.html">BIBLIOGRAFIA</a></li>
+       <li class="nav-item dropdown">
+
+    <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        id="creditosDropdown"
+        role="button"
+        aria-expanded="false">
+
+        CREDITOS
+
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="creditosDropdown">
+
+        <li>
+            <a
+                class="dropdown-item"
+                href="desenvolvedores.html">
+
+                DESENVOLVEDORES
+
+            </a>
+        </li>
+
+        <li>
+            <a
+                class="dropdown-item"
+                href="orientadores.html">
+
+                ORIENTADORES
+
+            </a>
+        </li>
+
+    </ul>
+
+</li>
+
+
+
+
+
+        <li class="nav-item"><a class="nav-link" href="contato.html" data-page="contato.html">CONTATO</a></li>
+      </ul>
+      <div class="lang-toggle ms-lg-3">
+        <a href="#" class="active">PT</a>
+        <span class="sep">|</span>
+        <a href="en/home1.html">EN</a>
+      </div>
     </div>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -48,24 +90,24 @@
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-6">
-                <span class="hero-badge"><i class="fas fa-star me-1"></i> ETEC PORTAS ABERTAS 2026</span>
-                <h1>Robotica:<br><span class="gradient-text">Tecnologia que Transforma</span><br>o Mundo</h1>
-                <p class="lead">Descubra como robos estao transformando industrias, hospitais, casas, escolas e ate a exploracao espacial. Um projeto sobre a tecnologia que esta moldando o futuro.</p>
+                
+                <h1><br><span class="gradient-text">Tecnologia que Transforma</span><br>o Mundo</h1>
+                <p class="lead">Descubra como robôs estão transformando industrias, hospitais, casas, escolas e ate a exploração espacial. Um projeto sobre a tecnologia que está moldando o futuro.</p>
                 <div class="hero-actions">
-                    <a href="#introducao" class="btn-glow"><i class="fas fa-rocket"></i> Explorar</a>
+                
                 </div>
                 <div class="hero-stats">
                     <div class="hero-stat">
                         <span class="num">3,5M+</span>
-                        <span class="lbl">Robos industriais ativos</span>
+                        <span class="lbl">Robôs industriais ativos</span>
                     </div>
                     <div class="hero-stat">
                         <span class="num">40+</span>
-                        <span class="lbl">Paises com automacao</span>
+                        <span class="lbl">Paises com automação</span>
                     </div>
                     <div class="hero-stat">
                         <span class="num">1961</span>
-                        <span class="lbl">Primeiro robo industrial</span>
+                        <span class="lbl">Primeiro robô industrial</span>
                     </div>
                 </div>
             </div>
@@ -76,10 +118,7 @@
             </div>
         </div>
     </div>
-    <div class="scroll-hint">
-        <i class="fas fa-chevron-down"></i>
-        ROLE PARA BAIXO
-    </div>
+    
 </section>
 
 <!-- SECAO: O QUE E ROBOTICA? -->
@@ -87,14 +126,14 @@
     <div class="container">
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-                <span class="section-badge">Introducao</span>
-                <h2 class="mb-3">O que e <span class="gradient-text">Robotica?</span></h2>
-                <p>A robotica e a area da ciencia e tecnologia que estuda o projeto, construcao, programacao e operacao de robos. Ela une tres grandes campos do conhecimento: a <strong class="text-cyan">mecanica</strong>, a <strong class="text-cyan">eletronica</strong> e a <strong class="text-cyan">programacao</strong>.</p>
-                <p class="mt-3">Um robo e uma maquina capaz de captar informacoes do ambiente (sensores), processar esses dados (computador/controlador) e executar acoes fisicas (atuadores). Alguns robos podem aprender e se adaptar com o uso de Inteligencia Artificial.</p>
+                
+               
+                <p>A robótica e a área da ciência e tecnologia que estuda o projeto, construção, programação e operação de robôs. Ela une três grandes campos do conhecimento: a <strong class="text-cyan">mecânica</strong>, a <strong class="text-cyan">eletrônica</strong> e a <strong class="text-cyan">programação</strong>.</p>
+                <p class="mt-3">Um robô e uma máquina capaz de captar informacoes do ambiente (sensores), processar esses dados (computador/controlador) e executar acoes fisicas (atuadores). Alguns robos podem aprender e se adaptar com o uso de Inteligencia Artificial.</p>
                 <div class="info-box mt-4">
                     <p class="mb-0"><strong class="text-cyan">Definicao:</strong> Segundo o Instituto de Engenharia Eletrica e Eletronica (IEEE), um robo e um sistema mecanico, eletrico ou de software capaz de realizar tarefas de forma autonoma ou semi-autonoma.</p>
                 </div>
-                <a href="sobre.html" class="btn-glow mt-4"><i class="fas fa-arrow-right"></i> Saiba Mais sobre Robotica</a>
+
             </div>
             <div class="col-lg-6">
                 <img src="img/about-img.jpg" alt="Componentes de um robo: sensores, controlador, atuadores" class="rounded-3 w-100" style="border:1px solid var(--border-color);box-shadow:var(--shadow-card);" loading="lazy">
@@ -107,8 +146,8 @@
 <section class="section-alt">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">Relevancia</span>
-            <h2>Por que a Robotica e <span class="gradient-text">Importante?</span></h2>
+           
+            <h2> <span class="gradient-text">A importância dela</span></h2>
             <p>A robotica esta revolucionando a forma como vivemos, trabalhamos e nos relacionamos com a tecnologia.</p>
             <div class="section-divider"></div>
         </div>
@@ -172,8 +211,8 @@
 <section class="section-alt">
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">Curiosidades</span>
-            <h2>Voce <span class="gradient-text">Sabia?</span></h2>
+            
+            <h2><span class="gradient-text">Curiosidade</span></h2>
             <p>Fatos interessantes sobre o mundo da robotica que muita gente nao conhece.</p>
             <div class="section-divider"></div>
         </div>
@@ -207,7 +246,7 @@
 <section>
     <div class="container">
         <div class="section-header">
-            <span class="section-badge">Conteudo</span>
+           
             <h2>Explore o <span class="gradient-text">Site</span></h2>
             <p>Navegue pelas paginas e descubra tudo o que preparamos sobre robotica.</p>
             <div class="section-divider"></div>
